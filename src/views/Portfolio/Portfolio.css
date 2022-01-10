@@ -1,0 +1,38 @@
+.customtabs_item {
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+  }
+  
+  .customtabs_item_active {
+    color: #f72585 !important;
+    text-transform: inherit !important;
+  }
+  
+  /* end of tabs */
+  
+  /* cards */
+  .custom_card {
+    height: 100%;
+    max-width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    outline-width: 0px !important;
+  }
+  .custom_card_image {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+  }
+  .custom_card_title {
+    font-weight: 500;
+  }
+  .custom_card_caption {
+    color: gray;
+    font-weight: 400;
+  }
+  
