@@ -57,11 +57,11 @@ const StyledContainer = styled(Grid)`
     flex-direction: column;
   }
 `;
-const StyledLogo = styled.img`
-  height: 45px;
-  width: auto;
-  border-radius: 50%;
-`;
+// const StyledLogo = styled.img`
+//   height: 45px;
+//   width: auto;
+//   border-radius: 50%;
+// `;
 
 const StyledUl = styled.ul`
   display: flex;
