@@ -15,13 +15,13 @@ const StyledTypographyTitle = styled(Typography)`
     margin-bottom: 2rem;
     font-size: 15px;
     font-weight: 500;
-    color: #f83a90;
+    /* color: #f83a90; */
   }
 `;
 
 const StyledTypographyDescription = styled(Typography)`
   && {
-    color: gray;
+    color: #808B96;
     font-size: small;
     margin-top: 10px;
   }
@@ -29,7 +29,7 @@ const StyledTypographyDescription = styled(Typography)`
 
 const StyledTimelineDot = styled(TimelineDot)`
   && {
-    border-color: pink;
+    border-color: #808B96;
     padding: 2px;
     margin-right: 5px;
   }
@@ -101,7 +101,7 @@ export const Skills = () => {
             return skill.description.map((language) => {
               return (
                 <StyledLi>
-                  <StyledLogo src={language.logo_src} alt="language logo" />
+                  {/* <StyledLogo src={language.logo_src} alt="language logo" /> */}
                 </StyledLi>
               );
             });

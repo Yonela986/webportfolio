@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from "react";
 import { Typography } from "@material-ui/core";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
@@ -74,11 +75,7 @@ display:flex;
 justify-content:center;
 margin-top:1.25rem;
 `
-const Figure = styled.figure`
- margin-top: -10px;
-    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    `;
+
     const StyledLink = styled.a`
       color: #787878;
       text-decoration: none;
@@ -90,9 +87,7 @@ const Figure = styled.figure`
      const StyledSpan = styled.span`
        color: black;
      `;
-const Image = styled.img`
-  width: 100%;
-`;
+
 const CustomTimeLineItem = ({ title, text, link }) => {
   return (
     <TimelineItem>
@@ -120,16 +115,10 @@ export const SideBarProfile = () => {
   return (
     <ProfileDiv className="container_shadow">
       <ProfileName>
-        <NameTypography>{RESUME_DATA.name}</NameTypography>
-        <TitleTypography>{RESUME_DATA.title}</TitleTypography>
+        <NameTypography>{RESUME_DATA.name}</NameTypography><br />
+        <TitleTypography>{RESUME_DATA.title}</TitleTypography><br />
       </ProfileName>
 
-      {/* <Figure>
-        <Image
-          src={`/Images/picture-main.jpg`}
-          alt="YonelaFuthoPhoto"
-        ></Image>
-      </Figure> */}
 
       <ProfileInfoDiv>
         <CustomTimeLine icon={<PersonIcon />}>
@@ -154,8 +143,9 @@ export const SideBarProfile = () => {
         </CustomTimeLine>
         <ButtonDiv>
           <StyledLink
-            href={`${process.env.PUBLIC_URL}/Downloads/Yonela Futho - Resume - 2021 (Original).pdf`}
-            download
+
+            // href={`${process.env.PUBLIC_URL}/Assets/Yonela Futho - Resume - 2021 (Original).pdf`}
+            download 
             target="_blank"
           >
             <CustomButton text={"Download Cv"} icon={<StyledIcon />} />

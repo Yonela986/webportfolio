@@ -9,7 +9,7 @@
   }
   
   .customtabs_item_active {
-    color: #f72585 !important;
+    /* color: #f72585 !important; */
     text-transform: inherit !important;
   }
   

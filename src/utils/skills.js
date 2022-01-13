@@ -1,6 +1,5 @@
 import ComputerOutlinedIcon from "@material-ui/icons/ComputerOutlined";
 import SupervisedUserCircleOutlinedIcon from "@material-ui/icons/SupervisedUserCircleOutlined";
-import SchoolOutlinedIcon from "@material-ui/icons/SchoolOutlined";
 
 export const TECH_STACK_MAP = [
   {
@@ -8,43 +7,37 @@ export const TECH_STACK_MAP = [
     description: [
       {
         name: "ReactJS",
-        logo_src: `${process.env.PUBLIC_URL}/images/reactjs.png`,
-      },
-      {
-        name: "NextJS",
-        logo_src: `${process.env.PUBLIC_URL}/images/nextjs.png`,
-      },
-      {
-        name: "Gatsby",
-        logo_src: `${process.env.PUBLIC_URL}/images/gatsby.png`,
-      },
-      {
-        name: "TypeScript",
-        logo_src: `${process.env.PUBLIC_URL}/images/ts.png`,
-      },
-      {
-        name: "ES6",
-        logo_src: `${process.env.PUBLIC_URL}/images/es6.jpeg`,
+        // logo_src: `${process.env.PUBLIC_URL}/Images/react.png`,
       },
       {
         name: "MaterialUI",
-        logo_src: `${process.env.PUBLIC_URL}/images/mui.png`,
+        // logo_src: `${process.env.PUBLIC_URL}/images/mui.png`,
       },
       {
         name: "Bootstrap CSS",
-        logo_src: `${process.env.PUBLIC_URL}/images/bootstrap.png`,
+        // logo_src: `${process.env.PUBLIC_URL}/images/bootstrap.png`,
       },
 
       {
-        name: "IndexedDB",
-        logo_src: `${process.env.PUBLIC_URL}/images/indexeddb.png`,
+        name: "Java",
+        // logo_src: `${process.env.PUBLIC_URL}/images/indexeddb.png`,
       },
-      { name: "Figma", logo_src: `${process.env.PUBLIC_URL}/images/figma.png` },
+      { name: "Figma", 
+      // logo_src: `${process.env.PUBLIC_URL}/images/figma.png` 
+    },
       {
         name: "HTML5",
-        logo_src: `${process.env.PUBLIC_URL}/images/html-5.png`,
+        // logo_src: `${process.env.PUBLIC_URL}/images/html-5.png`,
       },
-      { name: "CSS", logo_src: `${process.env.PUBLIC_URL}/images/css.png` },
+      { name: "CSS", 
+      // logo_src: `${process.env.PUBLIC_URL}/images/css.png` 
+    },
+    { name: "GraphCMS", 
+      // logo_src: `${process.env.PUBLIC_URL}/images/css.png` 
+    },
+    { name: "JavaScript", 
+      // logo_src: `${process.env.PUBLIC_URL}/images/css.png` 
+    },
     ],
   },
 

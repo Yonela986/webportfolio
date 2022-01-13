@@ -1,8 +1,8 @@
 const colors = {
     black: "black",
     white: "rgb(242, 240, 240)",
-    vividSkyBlue: "#4CC9F0",
-    flickrPink: "#F72585",
+    vividSkyBlue: "#808B96",
+    flickrPink: "#808B96",
   };
   
   const opacity = {

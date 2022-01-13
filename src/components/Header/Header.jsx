@@ -109,12 +109,12 @@ export const Header = (props) => {
           </StyledNavLink>
 
           {/* Contact link */}
-          <StyledNavLink
+          {/* <StyledNavLink
             href="/contactme"
             active={pathName === "/contactme" ? true : false}
           >
             Contact Me
-          </StyledNavLink>
+          </StyledNavLink> */}
         </StyledNav>
         <StyledSocialsDiv>
           {Object.keys(RESUME_DATA.socials).map((socialMedia) => {

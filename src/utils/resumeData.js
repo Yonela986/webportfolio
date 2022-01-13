@@ -1,6 +1,6 @@
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkIcon from "@material-ui/icons/Link";
+import InstagramIcon from "@material-ui/icons/Instagram"
 
 
 export const RESUME_DATA = {
@@ -28,6 +28,11 @@ export const RESUME_DATA = {
       link: "https://github.com/Yonela986",
       text: "GitHub",
       icon: <GitHubIcon />,
+    },
+    Instagram: {
+      link: "https://www.instagram.com/nela_futho/",
+      text: "GitHub",
+      icon: <InstagramIcon/>,
     },
   },
 

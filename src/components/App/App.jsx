@@ -7,7 +7,7 @@ import Portfolio from "../../views/Portfolio";
 import Resume from "../../views/Resume";
 import { Skills } from "../../views/Skills";
 import Footer from "../Footer";
-import Contact from "../../views/Contact";
+// import Contact from "../../views/Contact";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -31,9 +31,9 @@ export const App = () => {
                   <Route path="/skills">
                     <Skills />
                   </Route>
-                  <Route path="/contact">
+                  {/* <Route path="/contact">
                     <Contact />
-                  </Route>
+                  </Route> */}
                   <Route path="/">
                     <Resume />
                   </Route>

@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: #fafafa;
     overflow-x: hidden;
-    background:url("../src/Assets/Images/coverimage.jpg"); 
+    /* background:url("../src/Assets/Images/coverimage.jpg");  */
    }
   
   code {
