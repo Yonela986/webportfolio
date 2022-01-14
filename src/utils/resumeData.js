@@ -6,7 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram"
 export const RESUME_DATA = {
   name: "Yonela Futho",
   title: "Entry-level Full Stack Web Developer",
-  emailAdress: "loreenmuusha@gmail.com",
+  emailAdress: "yoza.futho@gmail.com",
   cellphoneNumber: "+27 613 340 397",
   DateOfBirth: "13-12-1990",
   Address: "9 Illovo Street, Leiden Delft South, 7100",
