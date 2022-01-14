@@ -126,9 +126,9 @@ export const SideBarProfile = () => {
           <CustomTimeLineItem title="Title" text={` ${RESUME_DATA.title}`} />
           <CustomTimeLineItem
             title="Email"
-            text=" Email Me"
+            text=" yoza.futho@gmail.com"
             // link={`mailto:${RESUME_DATA.emailAdress}`}
-            text="yoza.futho@gmail.com"
+            // text="yoza.futho@gmail.com"
           />
 
           {Object.keys(RESUME_DATA.socials).map((key) => {
