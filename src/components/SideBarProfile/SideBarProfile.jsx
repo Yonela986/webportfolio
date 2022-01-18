@@ -145,11 +145,11 @@ export const SideBarProfile = () => {
         <ButtonDiv>
           <StyledLink
 
-            // href={`${process.env.PUBLIC_URL}/Assets/Yonela Futho - Resume - 2021 (Original).pdf`}
+            href={`${process.env.PUBLIC_URL}/Assets/Yonela Futho - Resume - 2021 (Original).pdf`}
             download 
             target="_blank"
           >
-            <CustomButton text={"Download Cv"} icon={<StyledIcon />} />
+            <CustomButton text={"Download CV"} icon={<StyledIcon />} />
           </StyledLink>
         </ButtonDiv>
       </ProfileInfoDiv>
