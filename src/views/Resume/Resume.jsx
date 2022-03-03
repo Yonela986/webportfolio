@@ -23,17 +23,14 @@ const StyledSchoolOutlinedIcon = styled(SchoolOutlinedIcon)`
 `;
 const SeeMoreButton = styled.button`
   background: none;
-  /* color: #fb89bc; */
   border: none;
   padding: 0;
   font-size: 12px;
 `;
 const StyledLink = styled.a`
   text-decoration: none;
-  /* color: #fb89bc; */
   font-size: 12px;
   /* &: hover {
-    color: #f61379;
   } */
 `;
 
@@ -50,7 +47,6 @@ const StyledTypographyTitle = styled(Typography)`
   && {
     font-size: 15px;
     font-weight: 500;
-    /* color: #f83a90; */
   }
 `;
 

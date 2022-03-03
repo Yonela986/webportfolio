@@ -23,11 +23,9 @@ export const Portfolio = () => {
   const [projectDialog, setprojectDialog] = useState(false);
 
   const StyledLink = styled.a`
-    /* color: #f962a6; */
     cursor: pointer;
     font-size: 30px;
     /* &: hover {
-      color: #b10653;
     } */
   `;
   const StyledTypographyDescription = styled(Typography)`
@@ -40,7 +38,6 @@ export const Portfolio = () => {
     && {
       font-size: 12px;
       font-weight: 500;
-      /* color: #f83a90; */
     }
   `;
   const StyledDialogImage = styled.img`

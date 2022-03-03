@@ -14,6 +14,7 @@ import { RESUME_DATA } from "../../utils/resumeData";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 
+
 const ProfileDiv = styled.div`
   display: inline-block;
   background-color: white;
@@ -80,7 +81,6 @@ margin-top:1.25rem;
       color: #787878;
       text-decoration: none;
       /* &: hover {
-        color: #f61379;
       } */
     `;
 
@@ -145,11 +145,14 @@ export const SideBarProfile = () => {
         <ButtonDiv>
           <StyledLink
 
-            href={`${process.env.PUBLIC_URL}/Assets/Yonela Futho - Resume - 2021 (Original).pdf`}
+            href="/home/yonela/Public/Yonela Futho Original Resume.pdf"
             download 
             target="_blank"
           >
-            <CustomButton text={"Download CV"} icon={<StyledIcon />} />
+            {/* <Document file={JRResume}> */}
+            <CustomButton  text={"Download CV"} icon={<StyledIcon />} />
+
+            
           </StyledLink>
         </ButtonDiv>
       </ProfileInfoDiv>

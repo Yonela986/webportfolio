@@ -113,7 +113,7 @@ export const EDUCATION_MAP = [
     year: "2021",
   },
   {
-    name: " Agile Web Development",
+    name: "Java",
     description: "Project Codex",
     location: "Cape Town South Africa",
     year: "2020",
@@ -130,9 +130,14 @@ export const EDUCATION_MAP = [
 
 export const SERVICES_MAP = [
   {
-    title: "Web Development",
-    description: "Front and backend web development",
+    title: "Java Developer",
+    description: "Learned Java concepts, and basics of SQL and PostGres",
     icon: <ComputerOutlinedIcon />,
+  },
+  {
+    title: "React JS",
+    description: "Creating app using React, using Node js and GraphCMS",
+    icon: <ComputerOutlinedIcon />
   },
   {
     title: "Mentoring",

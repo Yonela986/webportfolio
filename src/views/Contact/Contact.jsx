@@ -39,10 +39,8 @@
 // `;
 // const StyledEmailLink = styled.a`
 //   text-decoration: none;
-//   /* color: #fa75b1; */
 //   cursor: pointer;
 //   /* &: hover {
-//     color: #ec096f;
 //   } */
 // `;
 

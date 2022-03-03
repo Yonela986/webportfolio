@@ -15,7 +15,6 @@ const StyledTypographyTitle = styled(Typography)`
     margin-bottom: 2rem;
     font-size: 15px;
     font-weight: 500;
-    /* color: #f83a90; */
   }
 `;
 
@@ -38,7 +37,7 @@ const StyledTimelineDot = styled(TimelineDot)`
 const StyledPaper = styled(Paper)`
 &&{
   border-radius: 8px;
-padding: 20px;
+padding: 10px;
 box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08)
 /* height : 100%; */
 }`;
@@ -72,7 +71,7 @@ const StyledUl = styled.ul`
 `;
 const StyledLi = styled.li`
   //  flex: 0 1 calc(20% - 8px);
-  padding-top: 2rem;
+  /* padding-top: 0.1rem; */
   padding-bottom: 1rem;
   margin: 1rem;
  
