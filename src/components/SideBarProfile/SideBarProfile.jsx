@@ -144,13 +144,16 @@ export const SideBarProfile = () => {
         </CustomTimeLine>
         <ButtonDiv>
           <StyledLink
+                         href="/home/yonela/Downloads/Yonela Futho - Resume.pdf"
 
-            href="/home/yonela/Public/Yonela Futho Original Resume.pdf"
             download 
             target="_blank"
           >
-            {/* <Document file={JRResume}> */}
-            <CustomButton  text={"Download CV"} icon={<StyledIcon />} />
+            {/* <Document file={JRResume} /> */}
+            <CustomButton  text={"Download CV"} icon={<StyledIcon />} 
+            
+
+            />
 
             
           </StyledLink>

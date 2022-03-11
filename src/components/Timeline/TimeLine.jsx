@@ -24,7 +24,6 @@ const FirstItem = styled(TimelineItem)`
 const StyledHeaderDot = styled(TimelineDot)`
   && {
     color: black;
-    /* background-color: #f72585; */
     font-size: small;
     padding: 10px;
     margin-left:-18px;
@@ -59,7 +58,6 @@ const StyledTimelineContent = styled(TimelineContent)`
 export const TimeLine = ({ title, children, icon }) => {
   return (
     <StyledTimeline>
-      {/* {item header} */}
       <FirstItem>
         <TimelineSeparator>
           <StyledHeaderDot>{icon}</StyledHeaderDot>
