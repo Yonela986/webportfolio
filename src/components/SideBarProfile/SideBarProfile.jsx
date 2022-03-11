@@ -144,7 +144,7 @@ export const SideBarProfile = () => {
         </CustomTimeLine>
         <ButtonDiv>
           <StyledLink
-                         href="/home/yonela/Downloads/Yonela Futho - Resume.pdf"
+          href="https://drive.google.com/file/d/1BFDi-f5OGVlasCYBWf1r5odMrVJaFv6X/view?usp=sharing"
 
             download 
             target="_blank"
